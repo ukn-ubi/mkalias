@@ -14,4 +14,3 @@ Clone this repository, enter it, and run "./install". You will probably want to 
 TODO
 =====
 Make it append the alias to the end of the shell config.
-Support sh.

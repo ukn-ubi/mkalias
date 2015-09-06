@@ -11,7 +11,7 @@ except:
     print("Usage: \n\tmkalias <shell> <alias> <command>")
     sys.exit()
 
-if shell == "zsh" or shell == "bash":
+if shell == "zsh" or shell == "bash" or shell == "sh":
     print("alias " + alias + "=\"" + run + "\"")
 elif shell == "fish":
     print("alias " + alias + " \"" + run + "\"")
